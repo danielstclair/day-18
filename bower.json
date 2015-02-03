@@ -1,0 +1,22 @@
+{
+  "name": "day-18",
+  "version": "0.0.0",
+  "homepage": "https://github.com/danielstclair/day-18",
+  "authors": [
+    "Daniel St. Clair <danielallanstclair@gmail.com>"
+  ],
+  "description": "backbone homework for day 18",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.1.2",
+    "jquery": "~2.1.3"
+  }
+}

@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  color: grey; }
+
+.heading {
+  background-image: url(http://www.artoftheproblem.net/wp-content/uploads/2011/06/screen-shot-2011-06-09-at-4-22-09-pm.png?w=320&h=221);
+  text-align: center; }
+  .heading div {
+    padding: 4em 0; }
+
+.instructions .Intro {
+  display: inline-block;
+  width: 20%;
+  padding: 6em 0;
+  margin-top: 0;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+.instructions h1 {
+  font-size: 2em;
+  font-weight: 100; }
+.instructions h1 section {
+  display: inline;
+  color: red; }
+.instructions #one {
+  background-image: url(http://upload.wikimedia.org/wikipedia/commons/7/7f/Launch_of_Jupiter_C_with_Explorer_1.jpg); }
+.instructions #two {
+  background-image: url(http://www.trulygraphics.com/wp-content/uploads/2010/09/two-cats.jpg);
+  height: 100%; }
+.instructions #three {
+  background-image: url(http://upload.wikimedia.org/wikipedia/commons/0/04/Grand_Gala_du_Disque_Populaire_1974_-_The_Three_Degrees_927-0060.jpg); }
+.instructions #four {
+  background-image: url(http://grandhustlemarketing.com/wp-content/uploads/2014/07/guinea.jpg); }
+.instructions #five {
+  background-image: url(http://th00.deviantart.net/fs70/PRE/i/2011/271/a/a/i_quit_by_gada_jermy-d4b66p4.jpg);
+  color: red; }
+
+.evil-pic {
+  background-image: url(http://img3.wikia.nocookie.net/__cb20130201192301/simpsons/images/7/74/IMG_1506.PNG);
+  background-size: 100%;
+  height: 50em;
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pick a number</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<section class="heading">
+		<input type="text" id="choice" />
+		<p><input type="button" value="Submit" id="button"></p>
+		<div>
+			<h1>Pick a number...</h1>
+			<h2>any number</h2>
+		</div>
+	</section>
+	<section class="instructions">
+		<div class="Intro" id="one">
+			<h1><section>Before</section> we begin let's explain</h1>
+		</div><div class="Intro" id="two">
+			<h1><section>First</section> you pick a number betweem 1 and 100</h1>
+		</div><div class="Intro" id="three"><h1>If you guess <section>below</section> the number, we'll let you know.</h1></div><div class="Intro" id="four"><h1>If you guess <section>above</section> the number, we'll let you know.</h1></div><div class="Intro" id="five">
+			If you ever want to quit, no one's stopping you!.
+		</div>
+	</section>
+	<section class="evil-pic">
+		<h1>Let the games begin!</h1>
+	</section>
+	<script type="text/JavaScript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/JavaScript" src="bower_components/underscore/underscore-min.js"></script>
+	<script type="text/JavaScript" src="bower_components/backbone/backbone.js"></script>
+	<script type="text/JavaScript" src="js/views/AppView.js"></script>
+	<script type="text/JavaScript" src="js/main.js"></script>
+</body>
+</html>
